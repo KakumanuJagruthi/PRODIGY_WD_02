@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #86528d;
+    color: #333;
+}
+
+/* Stopwatch container */
+.stopwatch {
+    text-align: center;
+    margin: 80px auto;
+    background-color: #483b3b;
+    border-radius: 50%; /* Circular shape */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #c98ec15a; /* Circular border */
+}
+
+/* Display */
+#display {
+    font-size: 8em;
+    margin-bottom: 50px;
+    font-family: "Arial Black", sans-serif;
+    color: #555;
+}
+
+/* Buttons */
+button {
+    margin: 5px;
+    padding: 20px 40px; /* Adjusted padding */
+    background-color: #58718d;
+    color: #fff;
+    border: none;
+    border-radius: 100%; /* Circular shape */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #3c4957;
+}
+
+/* Lap button */
+#lap {
+    padding: 10px 20px; /* Adjusted padding */
+}
+
+/* Lap list */
+#laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    width: 80%;
+    overflow-y: auto;
+}
+
+/* Individual lap item */
+li {
+    padding: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 100%;
+    color: #555;
+}
